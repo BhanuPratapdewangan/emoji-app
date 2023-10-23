@@ -12,7 +12,7 @@ const EmojiApi = ({setMeaning, setEmoji}) => {
         axios({
             method: "get",
             url: "https://emoji-api.com/emojis?access_key=b1e697a9822cfb9047a931d3f8032d50e3a52399",
-            headers: { 'Content-Type': 'application/json' }
+            // headers: { 'Content-Type': 'application/json' }
         }).then(response => {
             setApidata(response.data);
             // console.log(response.data);
