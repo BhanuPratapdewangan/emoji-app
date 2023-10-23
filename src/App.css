@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200&family=Tilt+Neon&family=Ubuntu:ital@0;1&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@media only screen and (orientation: landscape) {
+  body {
+    /* background-image: url(https://i.pinimg.com/originals/10/69/a7/1069a7113c399a9a9ca3185769c59134.gif); */
+    background-image: url("https://openclipart.org/download/223595/Hd-Background.svg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    font-family: 'Abel', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .App {
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+  }
+
+  /* input box  */
+  input {
+    width: 25%;
+    height: 2.4rem;
+    border-radius: 5px;
+    border-color: rgba(3, 3, 83, 0.678);
+    text-align: center;
+  }
+
+  /* select option  */
+  .select-option {
+    width: 90%;
+    height: 2rem;
+    border-radius: 2rem;
+  }
+
+  .check-box {
+    margin-top: 6rem;
+    text-align: left;
+  }
+
+  .radio-button {
+    text-align: left;
+  }
+
+  /* input emojis  */
+  .input-emojis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  /* emoji-api */
+  .apiCharacter {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* section  */
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+  }
+
+  /* main  */
+  main .render-page{
+    width: 90%;
+  }
+  /* render page  */
+  .render-page {
+    font-size: 1.5rem;
+  }
+
+  .render-page p {
+    text-align: left;
+    margin-left: -23%;
+  }
+}
+
+@media screen and (orientation : portrait) {
+  body {
+    /* background-image: url(https://i.pinimg.com/originals/10/69/a7/1069a7113c399a9a9ca3185769c59134.gif); */
+    background-image: url("https://openclipart.org/download/223595/Hd-Background.svg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    font-family: 'Abel', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .App {
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+  }
+
+  /* input  */
+  input {
+    width: 70%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-color: rgba(3, 3, 83, 0.678);
+    text-align: center;
+  }
+
+  .select-option {
+    width: 50%;
+    height: 2.4rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+
+  /* input emojis  */
+  .input-emojis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  /* emoji-api */
+  .apiCharacter {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* check-box  */
+  .check-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    width: auto;
+  }
+
+  /* radio button  */
+  .radio-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    width: auto;
+  }
+
+   /* render page  */
+   .render-page {
+    font-size: 1.5rem;
+    display: block;
+  }
+
+  .render-page p {
+    text-align: left;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
