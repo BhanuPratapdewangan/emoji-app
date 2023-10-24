@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <EmojiHeader/> */}
         <Routes>
           <Route path='/' element={<EmojiHeader />} />
           <Route path='/apiData' element={<EmojiApi />} />
